@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span> 
+            </button>
+            <a class="navbar-brand" href="#"> Podar International School</a>
+         </div>
+       <div class="collapse navbar-collapse" id="myNavbar"> 
+           <ul class="nav navbar-nav">
+               <li> <a href="#campus_life"> Campus Life </a></li>
+               <li> <a href="#achievements"> Achievements </a></li>
+               <li> <a href="#new"> What's New </a></li>
+               <li> <a href="#alumni"> Alumni </a></li>
+               <li> <a href="#contact_us"> Contact Us </a></li>
+            </ul>
+           </div>
+          </nav>
+          <div class="annoucement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            Feel free to ask queries on school@gmail.com  
+            </marquee>
+             </div>
+            
+            <iframe id="video" <iframe width="900" height="506" src="https://www.youtube.com/embed/XP4byaT0kps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
+
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+        </div>
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2022-2-4--11-18-43-333_footergallerysangamner04022022_3.jpg">
+                    <h4 class="text-capitalize"><kbd>music room</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">Performing Arts is given huge importance in the curriculum. Ample opportunities are provided to the students to give expression to their imaginations. The Music room contains a variety of classical and western musical instruments.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2022-2-4--11-19-47-215_footergallerysangamner04022022_8.jpg">
+                    <h4 class="text-capitalize"><kbd>computer lab</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <p class="text-muted text-left">Computer labs offer Internet access and computer software to students. There are about 25 computers in our lab.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2021-12-6--12-32-10-84_footergallerychinchwad06122021_10.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>classrooms</kbd></h4>
+                    <hr>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">The classroom provides a space where learning can take place uninterrupted by outside distractions. And are designed integratedly.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Our students were very confident in speaking and performed very well. They kept their points in the debate and won first prize.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>In this achievement thee was a big hand of the players as well as the sports coach. Th students were practicing from 2 months and finally gave their best.</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>For this one, we kept a science expo and selected the best 5 projects out of hundreds of projects. The participants worked on their project more, gave their best and secured 2nd position.
+                     </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize"> Contact Us </h2>
+            </div>
+           <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.0132274255093!2d74.21267615058626!3d19.583933986733765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd01dffb8c5de5%3A0xdbd56bfc13b70331!2sPodar%20International%20School%20Sangamner!5e0!3m2!1sen!2sin!4v1650295379775!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+         <div id="details"> 
+           
+            <h3>     Principal Name: </h3>
+            <h4> Mr. Nilesh Patil </h4>
+               <div class="contact_1">
+                   <a href="mailto:school@gmail.com?Subject=Hi">
+                       <h5> <i class="fa fa-envelope"> </i> &nbsp;&nbsp;mail - school@gmail.com </h5>
+                   </a> 
+                   <a href="#">
+                       <h5> <i class="fa fa-phone-square"> </i> &nbsp;&nbsp;contact no - +919916001600 </h5>
+                        </a>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
